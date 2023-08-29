@@ -1,6 +1,5 @@
 using System.Text.Json.Serialization;
 using Telegram.Bot.Api.Client.Enums;
-using Telegram.Bot.Api.Client.Interfaces;
 
 namespace Telegram.Bot.Api.Client.Models.Responses;
 
@@ -8,7 +7,7 @@ namespace Telegram.Bot.Api.Client.Models.Responses;
 /// This object represents a chat.<br/>
 /// https://core.telegram.org/bots/api#chat
 /// </summary>
-public class ChatModel : IBaseResponseModel
+public class ChatModel
 {
 	/// <summary>
 	/// Unique identifier for this chat.<br/>

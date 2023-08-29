@@ -1,5 +1,4 @@
 using System.Text.Json.Serialization;
-using Telegram.Bot.Api.Client.Interfaces;
 
 namespace Telegram.Bot.Api.Client.Models.Responses;
 
@@ -7,7 +6,7 @@ namespace Telegram.Bot.Api.Client.Models.Responses;
 /// This object represents a message.<br/>
 /// https://core.telegram.org/bots/api#message
 /// </summary>
-public class MessageModel : IBaseResponseModel
+public class MessageModel
 {
 	/// <summary>
 	/// Unique message identifier inside this chat
