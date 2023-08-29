@@ -1,3 +1,5 @@
+using System.Runtime.Serialization;
+
 namespace Telegram.Bot.Api.Client.Enums;
 
 /// <summary>
@@ -6,8 +8,15 @@ namespace Telegram.Bot.Api.Client.Enums;
 /// </summary>
 public enum ChatType
 {
+	[EnumMember(Value = "private")]
 	Private,
+
+	[EnumMember(Value = "group")]
 	Group,
+
+	[EnumMember(Value = "supergroup")]
 	Supergroup,
+
+	[EnumMember(Value = "channel")]
 	Channel
 }

@@ -4,5 +4,5 @@ public enum ParseModeType
 {
 	Markdown,
 	MarkdownV2,
-	Html
+	HTML
 }

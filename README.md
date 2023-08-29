@@ -19,7 +19,7 @@ dotnet add package Telegram.Bot.Api.Client
 ```json
 {
 	"Telegram": {
-		"BotApi": {
+		"Bot": {
 			"BaseUrl": "https://api.telegram.org",
 			"Token": "YOUR_BOT_TOKEN"
 		}

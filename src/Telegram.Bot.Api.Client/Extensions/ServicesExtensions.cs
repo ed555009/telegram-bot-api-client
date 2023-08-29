@@ -36,7 +36,7 @@ public static class ServicesExtensions
 	static TelegramBotApiConfig? GetNotifyApiConfig(IConfiguration configuration) =>
 		configuration
 			.GetSection("Telegram")
-			.GetSection("BotApi")
+			.GetSection("Bot")
 			.Get<TelegramBotApiConfig>();
 
 	static RefitSettings GetRefitSettings() =>
