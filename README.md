@@ -2,7 +2,7 @@
 
 [![GitHub](https://img.shields.io/github/license/ed555009/telegram-bot-api-client)](LICENSE)
 ![Build Status](https://dev.azure.com/edwang/github/_apis/build/status/telegram-bot-api-client?branchName=master)
-[![Nuget](https://img.shields.io/nuget/v/Line.Notify.Api.Client)](https://www.nuget.org/packages/Telegram.Bot.Api.Client)
+[![Nuget](https://img.shields.io/nuget/v/Telegram.Bot.Api.Client)](https://www.nuget.org/packages/Telegram.Bot.Api.Client)
 
 ![Coverage](https://sonarcloud.io/api/project_badges/measure?project=telegram-bot-api-client&metric=coverage)
 ![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=telegram-bot-api-client&metric=alert_status)
