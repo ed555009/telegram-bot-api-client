@@ -20,10 +20,10 @@ public static class ServicesExtensions
 		var refitSettings = GetRefitSettings();
 
 		_ = services
-			.AddSingleton(config ?? throw new ArgumentNullException(nameof(config)))
+			.AddSingleton(config ?? throw new NullReferenceException(nameof(config)))
 			.AddRefitClient<ITelegramBotApi>(refitSettings)
 			.ConfigureHttpClient(c =>
-				c.BaseAddress = new Uri(config.BaseUrl ?? throw new ArgumentNullException(nameof(config.BaseUrl))));
+				c.BaseAddress = new Uri(config.BaseUrl ?? throw new NullReferenceException(nameof(config.BaseUrl))));
 
 		return serviceLifetime switch
 		{

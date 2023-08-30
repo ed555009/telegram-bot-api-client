@@ -67,7 +67,7 @@ public class ServicesExtensionTests : BaseServiceTests
 		var configuration = builder.AddJsonStream(new MemoryStream(Encoding.UTF8.GetBytes(_nullSettings))).Build();
 
 		// When
-		var ex = Assert.Throws<ArgumentNullException>(() =>
+		var ex = Assert.Throws<NullReferenceException>(() =>
 			ServicesExtensions.AddTelegramBotServices(services, configuration));
 
 		// Then

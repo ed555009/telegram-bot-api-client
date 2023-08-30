@@ -22,11 +22,11 @@ public class TelegramBotService : ITelegramBotService
 		string? token = null)
 	{
 		ValidateToken(token ?? _telegramBotApiConfig.Token);
-		ArgumentNullException.ThrowIfNull(data.ChatId, nameof(data.ChatId));
-		ArgumentNullException.ThrowIfNull(data.Text, nameof(data.Text));
+		ArgumentNullException.ThrowIfNull(data.ChatId);
+		ArgumentNullException.ThrowIfNull(data.Text);
 
 		return await _telegramBotApi.SendMessageAsync(token ?? _telegramBotApiConfig.Token!, data);
 	}
 
-	void ValidateToken(string? token) => ArgumentNullException.ThrowIfNull(token, nameof(token));
+	static void ValidateToken(string? token) => ArgumentNullException.ThrowIfNull(token);
 }
