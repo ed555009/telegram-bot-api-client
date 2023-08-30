@@ -1,5 +1,15 @@
 # Telegram.Bot.Api.Client
 
+[![GitHub](https://img.shields.io/github/license/ed555009/telegram-bot-api-client)](LICENSE)
+![Build Status](https://dev.azure.com/edwang/github/_apis/build/status/telegram-bot-api-client?branchName=master)
+[![Nuget](https://img.shields.io/nuget/v/Line.Notify.Api.Client)](https://www.nuget.org/packages/Telegram.Bot.Api.Client)
+
+![Coverage](https://sonarcloud.io/api/project_badges/measure?project=telegram-bot-api-client&metric=coverage)
+![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=telegram-bot-api-client&metric=alert_status)
+![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=telegram-bot-api-client&metric=reliability_rating)
+![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=telegram-bot-api-client&metric=security_rating)
+![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=telegram-bot-api-client&metric=vulnerabilities)
+
 ## Description
 
 This is a .NET6 library for interacting with [Telegram Bot](https://core.telegram.org/bots) Api.
